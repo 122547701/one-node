@@ -4,7 +4,7 @@ set -e
 
 DOMAIN="${DOMAIN:-example.com}"
 REMARKS="${REMARKS:-webhostmost}"
-WEB_PATH="${WEB_PATH:-/$(openssl rand -base64 21 | tr -dc 'A-Za-z0-9' | head -c 14)}"
+WEB_PATH="${WEB_PATH:-test}"
 
 # Download application files
 cd $HOME/domains/$DOMAIN/public_html
